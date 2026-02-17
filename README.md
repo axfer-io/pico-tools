@@ -66,6 +66,12 @@ This script is intended to be used alongside:
 
 ---
 
+# Serial monitor
+./pico-serial.sh
+This script is intented to facilite the open a serial monitor in the terminal
+
+---
+
 ## Expected Directory Layout
 
 The tools are expected to live at a fixed location:
@@ -115,9 +121,15 @@ If flashing or debugging requires BOOTSEL or guesswork, the workflow is incomple
 
 ## Documentation
 
-- 📘 [Toolchain Setup](README_SETUP.md)
 - 🛠️ [Troubleshooting](README_TROUBLESHOOT.md)
 - 🩺 `doctor.sh` – automated environment check
+
+## Install
+
+Use the system installer:
+
+➡️ https://github.com/axfer-io/pico-bootstrap
+
 
 ## Author
 
